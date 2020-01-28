@@ -1,0 +1,22 @@
+{
+  "name": "practica_nodejs_dws",
+  "version": "1.0.0",
+  "description": "Práctica del Tema 4 (NODE JS) de Desarrollo WEB en Entorno Servidor",
+  "main": "1ejercicio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjesusoj/Practica_NodeJS_DWS.git"
+  },
+  "author": {
+    "name": "mjesusoj",
+    "email": "m.jesusojedasalvador@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjesusoj/Practica_NodeJS_DWS/issues"
+  },
+  "homepage": "https://github.com/mjesusoj/Practica_NodeJS_DWS#readme"
+}
