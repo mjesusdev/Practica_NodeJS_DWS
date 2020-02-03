@@ -23,7 +23,8 @@ http.createServer(function(peticion, respuesta)
             var sacarLetraDNI = letras.substring(calcularLetraDNI,calcularLetraDNI+1);
             var dniCompleto = "<p>Su DNI Completo es: " + "<b>" + dniSinLetra + sacarLetraDNI + "</b>"+ "</p>";
             respuesta.write(dniCompleto);
-            return respuesta.end("\n</div> \n</body> \n</html>");
+            respuesta.write("\n</div> \n</body> \n</html>");
+            return respuesta.end();
         });
     }else{
         respuesta.write("<p>No has escrito bien la dirección, intente de nuevo😉</p>");
